@@ -12,7 +12,7 @@ class MapContainer extends Component {
         { latitude: 47.2052192687988, longitude: -121.988426208496 },
         { latitude: 47.6307081, longitude: -122.1434325 },
         { latitude: 47.3084488, longitude: -122.2140121 },
-        { latitude: 47.5524695, longitude: -122.0425407 }
+        { latitude: 29.7604, longitude: -95.3698 }
       ]
     };
   }
@@ -37,9 +37,9 @@ class MapContainer extends Component {
     return (
       <Map
         google={this.props.google}
-        zoom={8}
+        zoom={2}
         style={{ width: "100%", height: "75%" }}
-        initialCenter={{ lat: 47.444, lng: -122.176 }}
+        initialCenter={{ lat: 16.5388, lng: -23.0418 }}
       >
         {this.displayMarkers()}
       </Map>
